@@ -30,5 +30,35 @@
 // };
 // console.log(FindLargestWord("This is a longest word"));
 
-
 //****************************************FIRST QUESTION END HERE************************* */
+
+// Write a function generatehash that generate a hash tag from a given input string.If the length of the input string more than 280 charecter or if the input string is empty or contain only white space function should be return false
+
+// const generateHash = (str) => {
+//   if (str.length > 280 || str.trim().length === 0) return false;
+//   str = str.split(" ");
+//   str = str.map((current) =>
+//     current.replace(current[0], current[0].toUpperCase())
+//   );
+//   str = `#${str.join("")}`;
+//   return str;
+// };
+
+// console.log(generateHash("this is a hashtag generator"));
+
+// Second Mehtod
+
+// const generateHash = (str) => {
+//   if (str.length > 280 || str.trim().length === 0) return false;
+//   str = str.split(" ");
+//   str = str.map(
+//     (current) =>
+//       current.charAt(0).toUpperCase() + current.slice(1)
+//   );
+//   str = `#${str.join("")}`;
+//   return str;
+// };
+
+// console.log(generateHash("this is a hashtag generator"));
+
+//***************************************2nd Question end here******************* */
