@@ -106,3 +106,65 @@
 // console.log(checkTriangleType(3, 4, 5)); 
 
 //************************ 4th question end here************************* */
+
+// write a function sortAscending to  sort an array of number in ascending and Descending order
+
+// const  sortAscending = (arr) => {
+//      return  arr.sort((a,b) => a-b)
+// }
+
+// console.log(sortAscending([12,10,5,8]));
+
+// ************************ 5th question end here ***********************//
+
+/// How do you check if a string or number is a palindrome in JavaScript?
+
+// const isPalindrome = (str) => {
+//  const cleanStr = str.toLowerCase().replace(/\W/g, "")
+//  const reversedStr = str.split("").reverse().join("")
+//  return cleanStr === reversedStr
+// }
+// console.log(isPalindrome("madam"));
+// console.log(isPalindrome("A man, a plan, a canal: Panama"))
+
+// For Number
+
+// const isPalindrome = (num) => {
+//  const cleanStr = num.toString()
+//  const reversedStr = cleanStr.split("").reverse().join("")
+//  return cleanStr === reversedStr
+// }
+
+// console.log(isPalindrome(121));
+
+//// ************************************** 6th question end here**********************
+
+// Write a function findMax that takes a array of numbers as input and return the maximum number in the  array
+
+
+// const findMax = (arr) => {
+//   return Math.max(...arr)
+// }
+
+// console.log(findMax([2,3,4,5]));
+
+// Second Method
+
+// const findMax = (arr) => {
+//   if(arr.length === 0) return undefined
+//   let max = arr[0]
+
+//   for(let i = 1; i < arr.length; i++){
+//      if(arr[i] > max){
+//           max = arr[i]
+//      }
+//   }
+//   return max
+// }
+
+// console.log(findMax([2,10,21,4,12]));
+
+
+
+
+
